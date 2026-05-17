@@ -127,6 +127,7 @@
 const TEAM_CONFIG_KEY = 'readiness-team-config';
 
 const defaultTeamMembers = [
+    { id:"mm",    name:"Min He (MM)", role:"Senior Support Engineer" },
     { id:"alice", name:"Alice Wang",  role:"Support Engineer II" },
     { id:"bob",   name:"Bob Zhang",   role:"Support Engineer" },
     { id:"carol", name:"Carol Li",    role:"Support Engineer II" },
@@ -157,7 +158,8 @@ const demoData = {
     carol:  { plans:[{title:"Azure Networking Readiness",target_date:"2026-03-31",phases:[{title:"Foundation",icon:"📚",total:3,done:3,pct:100},{title:"Intermediate",icon:"🔧",total:4,done:4,pct:100},{title:"Advanced",icon:"🏆",total:4,done:3.5,pct:88}],total:11,done:10.5,pct:95}], overallPct:95 },
     dave:   { plans:[{title:"Azure Networking Readiness",target_date:"2026-05-15",phases:[{title:"Foundation",icon:"📚",total:3,done:1.5,pct:50},{title:"Intermediate",icon:"🔧",total:4,done:0,pct:0},{title:"Advanced",icon:"🏆",total:4,done:0,pct:0}],total:11,done:1.5,pct:14}], overallPct:14 },
     emma:   { plans:[{title:"Azure Networking Readiness",target_date:"2026-02-01",phases:[{title:"Foundation",icon:"📚",total:3,done:3,pct:100},{title:"Intermediate",icon:"🔧",total:4,done:4,pct:100},{title:"Advanced",icon:"🏆",total:4,done:4,pct:100}],total:11,done:11,pct:100}], overallPct:100 },
-    frank:  { plans:[{title:"Azure Networking Readiness",target_date:"2026-06-01",phases:[{title:"Foundation",icon:"📚",total:3,done:0.5,pct:17},{title:"Intermediate",icon:"🔧",total:4,done:0,pct:0},{title:"Advanced",icon:"🏆",total:4,done:0,pct:0}],total:11,done:0.5,pct:5}], overallPct:5 }
+    frank:  { plans:[{title:"Azure Networking Readiness",target_date:"2026-06-01",phases:[{title:"Foundation",icon:"📚",total:3,done:0.5,pct:17},{title:"Intermediate",icon:"🔧",total:4,done:0,pct:0},{title:"Advanced",icon:"🏆",total:4,done:0,pct:0}],total:11,done:0.5,pct:5}], overallPct:5 },
+    mm:     { plans:[{title:"AI-103: Developing AI Apps & Agents on Azure (Beta)",target_date:"2026-05-31",phases:[{title:"基础速通 Foundation",icon:"📚",total:8,done:0,pct:0},{title:"核心实操 Core Hands-on",icon:"🔧",total:10,done:0,pct:0},{title:"进阶+真题 Advanced & Mock",icon:"🎯",total:10,done:0,pct:0},{title:"最后冲刺 Final Push",icon:"🏆",total:5,done:0,pct:0}],total:33,done:0,pct:0}], overallPct:0 }
 };
 
 // ========== LOAD DATA: localStorage first, fallback to demo ==========
